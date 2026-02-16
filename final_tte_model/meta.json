@@ -1,0 +1,32 @@
+{
+  "best_epoch": 14,
+  "best_test_nll": 0.05961997269394292,
+  "horizon_months_for_risk": 6,
+  "model_params": {
+    "seq_hidden": 64,
+    "rnn_layers": 2,
+    "static_hidden": [
+      64,
+      32,
+      16
+    ],
+    "out_hidden": [
+      64,
+      32,
+      16
+    ],
+    "dropout": 0.2,
+    "init_alpha": 1.0,
+    "max_beta": 4.0
+  },
+  "optimizer": {
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "scheduler": {
+    "type": "ReduceLROnPlateau",
+    "factor": 0.5,
+    "patience": 2,
+    "min_lr": 1e-05
+  }
+}
