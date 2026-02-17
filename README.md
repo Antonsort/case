@@ -35,6 +35,13 @@ Main modeling notebook with three different approaches:
 
 This notebook also includes code to generate the final ranked list of the **top 1,000 potential first-time investors** for each approach.
 
+### `deployment.py`
+Small FastAPI deployment example.
+
+- Demonstrates one possible way to implement and expose the three model outputs through an API
+- Supports selecting model type, choosing Top X customers, and returning data as JSON or CSV
+- Included as a practical implementation demo (not a production-hardened deployment)
+
 ## Notes
 
 - The repository is designed as a case solution and exploration workflow.
